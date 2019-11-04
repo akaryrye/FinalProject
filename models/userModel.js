@@ -11,7 +11,6 @@ const userModel = new Schema(
     eventDate: { type: Date },
     wallet: Number,
     bet: Integer,
-    user_ref: { type: String },
     event: { type: String },
     selection: { type: String },
     result: { type: String, default: "Pending" },
