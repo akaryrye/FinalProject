@@ -10,10 +10,6 @@ const userModel = new Schema(
     date: { type: Date, default: Date.now },
     eventDate: { type: Date },
     wallet: Number,
-    bet: Integer,
-    event: { type: String },
-    selection: { type: String },
-    result: { type: String, default: "Pending" },
     owner: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
