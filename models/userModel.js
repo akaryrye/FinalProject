@@ -8,7 +8,6 @@ const userModel = new Schema(
     name: { type: String, required: true },
     password: { type: String, required: true },
     date: { type: Date, default: Date.now },
-    eventDate: { type: Date },
     wallet: Number,
     owner: {
       type: mongoose.Schema.Types.ObjectId,
