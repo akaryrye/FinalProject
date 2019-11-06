@@ -13,6 +13,6 @@ const betModel = new Schema(
   }
 );
 
-const User = mongoose.model("Bet", betModel);
+const Bet = mongoose.model("Bet", betModel);
 
 module.exports = Bet;
