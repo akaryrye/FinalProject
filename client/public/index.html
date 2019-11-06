@@ -13,10 +13,25 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/journal/bootstrap.min.css"
     />
+
     <title>React Reading List</title>
   </head>
 
   <body>
+    <div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="age">You must be 21 or over to view this page</p>
+          <button type="button" class="no" id="no">
+            Leave
+          </button>
+          <button type="button" class="yes" id="yes" data-dismiss="modal">
+            Enter
+          </button>
+        </div>
+      </div>
+    </div>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
