@@ -8,12 +8,14 @@ const userModel = new Schema(
     name: { type: String, required: true },
     password: { type: String },
     date: { type: Date, default: Date.now },
-    wallet: Number,
-    owner: {
-      type: mongoose.Schema.Types.ObjectId,
-      required: true,
-      ref: "User"
-    }
+    wallet: Number
+
+    // ref user for verification
+    // owner: {
+    //   type: mongoose.Schema.Types.ObjectId,
+    //   required: true,
+    //   ref: "User"
+    // }
   },
   {
     timestamps: true
