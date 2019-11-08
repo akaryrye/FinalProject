@@ -6,13 +6,14 @@ import TopNav from "./components/TopNav/TopNav.js";
 import Jumbo from "./components/Jumbotron/Jumbo.js";
 import StreamBox from "./components/Carousel/Carousel.js";
 import "./base.css";
-// import Nav from "./components/SideNav/SideNav.js";
+import Nav from "./components/SideNav/SideNav.js";
 
 function App() {
   return (
     <div>
+      <Nav />
       <TopNav />
-      <StreamBox />
+
       <Router>
         <div></div>
       </Router>

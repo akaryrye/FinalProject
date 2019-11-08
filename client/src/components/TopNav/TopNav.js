@@ -22,7 +22,12 @@ const TopNav = props => {
           <NavLink href="#" id="login">
             Login
           </NavLink>
-          <button type="button" class="btn btn-primary" href="#" id="signUp">
+          <button
+            type="button"
+            className="btn btn-primary"
+            href="#"
+            id="signUp"
+          >
             Sign Up
           </button>
         </div>
