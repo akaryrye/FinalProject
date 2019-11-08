@@ -9,3 +9,6 @@ nav {
   display: flex;
   margin-left: auto !important;
 }
+#signUp {
+  margin: 4px !important;
+}

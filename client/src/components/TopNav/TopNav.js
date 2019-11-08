@@ -19,12 +19,12 @@ const TopNav = props => {
           Shop
         </NavLink>{" "}
         <div id="authentication">
-          <NavLink href="#" id="signUp">
-            Sign Up
-          </NavLink>
           <NavLink href="#" id="login">
             Login
           </NavLink>
+          <button type="button" class="btn btn-primary" href="#" id="signUp">
+            Sign Up
+          </button>
         </div>
       </Nav>
     </div>
