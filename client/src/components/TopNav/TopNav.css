@@ -2,7 +2,7 @@ nav {
   width: 100% !important;
 }
 .nav-link {
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 
 #authentication {
